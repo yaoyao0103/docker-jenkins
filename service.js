@@ -6,7 +6,7 @@ app.get('/', function(req, res, next){
 });
 
 app.get('/test', function(req, res, next){
-    res.json({msg: "hello world test!!"})
+    res.json({msg: "hello world test!"})
 });
 
 var server = app.listen(3000, () => {
